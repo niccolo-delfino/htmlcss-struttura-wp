@@ -15,7 +15,8 @@ header{
 }
 
 main{
-  background-color: green
+  margin-top: 10px;
+  background-color: green;
 }
 main::after{
   content: "";
@@ -24,17 +25,32 @@ main::after{
 }
 
 .float-left{
+  width: 20%;
   float: left;
+  margin-right: 20px
+}
+
+.float-right{
+  float: right;
+  width: 20%;
 }
 
 aside.col-left{
-  width: 20%;
+  width: 100%;
   background-color: pink;
   height: 400px;
 }
 
 section.maintext{
-  width: calc(100% - 20%);
-  height: 300px;
+  width: calc(100% - 40% - 40px);
+  height: 200px;
+  margin-right: 20px;
   background-color: purple;
+}
+
+aside.col-right{
+  width: 100%;
+  height: 350px;
+  background-color: pink;
+  margin-bottom: 20px
 }
