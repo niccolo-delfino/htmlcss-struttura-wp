@@ -13,3 +13,13 @@ header{
   height: 300px;
   background-color: yellow;
 }
+
+main{
+  background-color: green
+}
+
+aside.col-left{
+  width: 20%;
+  background-color: pink;
+  height: 400px;
+}
