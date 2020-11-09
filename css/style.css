@@ -17,6 +17,11 @@ header{
 main{
   background-color: green
 }
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .float-left{
   float: left;
