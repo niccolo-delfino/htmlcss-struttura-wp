@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+  padding: 10px;
+}
+header{
+  height: 300px;
+  background-color: yellow;
+}
