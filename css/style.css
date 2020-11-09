@@ -18,8 +18,18 @@ main{
   background-color: green
 }
 
+.float-left{
+  float: left;
+}
+
 aside.col-left{
   width: 20%;
   background-color: pink;
   height: 400px;
+}
+
+section.maintext{
+  width: calc(100% - 20%);
+  height: 300px;
+  background-color: purple;
 }
